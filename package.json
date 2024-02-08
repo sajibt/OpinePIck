@@ -1,0 +1,37 @@
+{
+  "name": "opinepick",
+  "version": "1.0.0",
+  "description": "OpinePick is your go-to platform for sharing opinions and making decisions. Whether it's about choosing the cutest cat, the best product, or the most beautiful travel destination, OpinePick focuses on quality discussions to provide meaningful insights.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node src/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/server.js",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "keywords": [
+    "opinepick",
+    "Opinion-sharing",
+    "Decision-making",
+    "Polling-platform"
+  ],
+  "author": "womsajib",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajibt/OpinePIck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sajibt/OpinePIck/issues"
+  },
+  "homepage": "https://github.com/sajibt/OpinePIck#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.3"
+  }
+}
